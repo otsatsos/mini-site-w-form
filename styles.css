@@ -8,26 +8,33 @@ html, body {
 header {
     background-color: indigo;
     width: 100%;
-    height: 5vh;
+    height: 6vh;
     padding: 10px;
     margin: 0;
 }
 
 #navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin: 2.3vh 0.2vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+#navbar li {
+    margin: 0 15px;         /* Add spacing between items */
+    color: white;
 }
 
 #navbar a{
     display: inline;
     color: white;
     text-decoration: none;
-}
-
-#navbar span{
-    padding-right: 0.5rem;
 }
 
 #navbar a:hover {
