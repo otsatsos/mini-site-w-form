@@ -4,16 +4,19 @@
         <meta charst="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <title>Contact Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <title>Software Developer - Orestis Tsatsos</title>
     </head>
     <body>
         <header>
             <nav id="navbar">
-                <img class="nav-logo" src="images/otsatsos_logo_white.png" alt="logo">
+                <img class="nav-logo" src="images/otsatsos_logo_white.png" alt="otsatsos_logo">
                 <ul>
                     <li class="navbar-item"><a href="#homepage">Homepage</a></li>
                     <li class="navbar-item"><a href="#services">Services</a></li>
-                    <li class="navbar-item"><a href="#blog">Blog</a></li>
+                    <li class="navbar-item"><a href="#Projects">Projects</a></li>
                     <li class="navbar-item"><a href="#lets_talk">Let's talk</a></li>
                 </ul>
             </nav>
@@ -21,11 +24,15 @@
         
     <main>
         <header class="form-header">
-            <h1>Interested to x10 your sales?</h1>
+            <h1 class="encode-sans-expanded-semi-bold">Ready to 10x your bookings?</h1>
+            <h2 class="encode-sans-expanded-medium">Optimize your landing pages and see your revenues skyrocket.</h2>
         </header>
-        <section>
+        <section class="lp_form">
             <form>
-                <fieldset>Let's schedule a demo call</fieldset>
+                <fieldset class="encode-sans-expanded-normal">Let's schedule a demo call</fieldset>
+                <label for="fname">First name: <input type="text" id="fname" name="fname"></label>
+                <label for="lname">Last name: <input type="text" id="lname" name="lname"></label>
+                <label for="email">Email: <input type="email" id="email" name="email" pattern=".+@example\.com" size="30" required></label>
                 <label for="fname">First name: <input type="text" id="fname" name="fname"></label>
             </form>
         </section>
